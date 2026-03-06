@@ -1,0 +1,20 @@
+[package]
+name = "barcodefyi"
+version = "0.1.0"
+edition = "2021"
+authors = ["FYIPedia"]
+description = "Barcode format lookup, symbology reference, and standard encyclopedia -- async API client for barcodefyi.com."
+license = "MIT"
+repository = "https://github.com/fyipedia/barcodefyi-rs"
+homepage = "https://barcodefyi.com"
+documentation = "https://docs.rs/barcodefyi"
+readme = "README.md"
+keywords = ["barcode", "upc", "ean", "gs1", "api-client"]
+categories = ["api-bindings", "data-structures"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["full"] }
