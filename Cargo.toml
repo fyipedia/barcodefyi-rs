@@ -1,6 +1,6 @@
 [package]
 name = "barcodefyi"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["FYIPedia"]
 description = "Barcode format lookup, symbology reference, and standard encyclopedia -- async API client for barcodefyi.com."
